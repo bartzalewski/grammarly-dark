@@ -1,0 +1,30 @@
+{
+	"name": "grammarly-dark",
+	"version": "1.0.0",
+	"description": "A dark theme for Grammarly documents",
+	"scripts": {
+		"build:html": "parcel build src/pages/popup.html",
+		"build:css": "parcel build src/theme/index.scss && rm dist/index.css.map",
+		"build:icons": "parcel build src/icons/*",
+		"build:manifest-chrome": "cp src/manifest/manifest-chrome.json dist/ && cd dist && ren manifest-chrome.json manifest.json",
+		"build:chrome": "npm run build:html && npm run build:css && npm run build:icons && npm run build:manifest-chrome",
+		"build": "npm run build:chrome",
+		"clean": "rm -rf ./dist && rm -rf ./.cache"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bartzalewski/grammarly-dark.git"
+	},
+	"author": "Bart Zalewski",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/bartzalewski/grammarly-dark/issues"
+	},
+	"homepage": "https://github.com/bartzalewski/grammarly-dark#readme",
+	"devDependencies": {
+		"parcel-bundler": "^1.12.4"
+	},
+	"dependencies": {
+		"sass": "^1.26.8"
+	}
+}

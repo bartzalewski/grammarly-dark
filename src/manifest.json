@@ -6,7 +6,7 @@
 	"content_scripts": [
 		{
 			"matches": ["https://app.grammarly.com/ddocs/*"],
-			"css": ["theme/index.css"]
+			"css": ["theme/index.scss"]
 		}
 	],
 	"browser_action": {
