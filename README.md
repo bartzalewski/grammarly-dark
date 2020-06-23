@@ -10,6 +10,10 @@
   A dark theme for Grammarly documents.
 </p>
 
+<p align="center">
+  <a href="https://www.producthunt.com/posts/grammarly-dark?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-grammarly-dark" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=208243&theme=dark" alt="Grammarly Dark - Use Grammarly online in dark mode 🌙 | Product Hunt Embed" style="width: 250px; height: 54px;" width="250px" height="54px" /></a>
+</p>
+
 ![demo](https://i.imgur.com/51S9nyR.png)
 
 ## 🔥 What's this?
