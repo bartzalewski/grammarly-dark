@@ -2,10 +2,10 @@
 	"manifest_version": 2,
 	"name": "Grammarly Dark",
 	"description": "A dark theme for Grammarly documents.",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"content_scripts": [
 		{
-			"matches": ["https://app.grammarly.com/ddocs/*"],
+			"matches": ["https://*.grammarly.com/*"],
 			"css": ["index.css"]
 		}
 	],

@@ -36,7 +36,8 @@ div[data-name='documentSettings-close'][data-hovered='true'],
 ._8d368bc3-loader-documentTitle:before,
 ._015a6b22-loader-loader,
 ._3a2067f5-assistant-loaderWrapper:before,
-._153ae67a-input-inputField {
+._153ae67a-input-inputField,
+._f6603af6-index_layout-view {
 	background: #1a1a1a !important;
 }
 
@@ -74,7 +75,15 @@ div[data-name='documentSettings-close'][data-hovered='true'],
 ._2f127f34-statistics-modalFooter,
 ._58a125b7-statistics-modalHeader,
 ._17a17efc-navigation-navigationLoaderWithToolbar:before,
-._ea183f04-button-flat:not([data-disabled='true'])[data-hovered='true'] {
+._ea183f04-button-flat:not([data-disabled='true'])[data-hovered='true'],
+._8cfa0978-document_item-item,
+._fc686a24-document_item-actions,
+.menu_item__QbLPu:hover,
+.menu_itemSelected__2oy3_,
+.input_input__1n2la,
+.buttons_secondary__64-Gw,
+.modal_modal__T1FlG,
+.topics_topic__Vq2I2 {
 	background: #111 !important;
 }
 
@@ -99,7 +108,15 @@ div[data-name='documentSettings-close'][data-hovered='true'],
 ._360f388b-typography-header3,
 ._4e83965b-default-highlightedText,
 ._bb023d25-typography-p1,
-._2c5ad319-synonyms-emptyResultWrapper {
+._2c5ad319-synonyms-emptyResultWrapper,
+._8cfa0978-document_item-item,
+._7871d11f-search_input-input,
+._841674e3-typography-header4,
+._f74f7951-typography-title,
+.textarea_textarea__3JL3O,
+.input_input__1n2la,
+._758e07ad-document_item-add,
+._fc686a24-document_item-actions > div {
 	color: #fff !important;
 }
 
@@ -108,7 +125,9 @@ div[data-name='upgrade']
 ._f28157ea-icon-icon:not([data-disabled='true'])[data-active='true'],
 ._2af2075c-notifications-gray i,
 ._f28157ea-icon-icon:not([data-disabled='true'])[data-hovered='true'],
-._f28157ea-icon-icon:not([data-disabled='true'])[data-active='true'] {
+._f28157ea-icon-icon:not([data-disabled='true'])[data-active='true'],
+._5911ca76-search_input-search,
+.textarea_textarea__3JL3O {
 	background: none !important;
 }
 
@@ -201,7 +220,8 @@ p {
 	box-shadow: 0 12px 48px 0 rgba(0, 0, 0, 0.24) !important;
 }
 
-._2154f8ba-button-groupSticky ._247ac8af-button-white {
+._2154f8ba-button-groupSticky ._247ac8af-button-white,
+._5911ca76-search_input-search {
 	border-color: #111 !important;
 }
 
@@ -211,4 +231,9 @@ p {
 
 ._12932219-upgrade-button-base {
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35) !important;
+}
+
+.sidebar_d_container__11M9S {
+	background: #323439 !important;
+	box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.14) !important;
 }
