@@ -25,6 +25,6 @@
 		"parcel-bundler": "^1.12.4"
 	},
 	"dependencies": {
-		"sass": "^1.26.8"
+		"sass": "^1.26.10"
 	}
 }
