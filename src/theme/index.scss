@@ -39,7 +39,8 @@ div[data-name="documentSettings-close"][data-hovered="true"],
 ._153ae67a-input-inputField,
 ._f6603af6-index_layout-view,
 ._fb5cc800-replacements_labels-fullSentenceBackground,
-._09523b8b-plagiarism-copyableReference {
+._09523b8b-plagiarism-copyableReference,
+._15afcc24-base-fullCard {
   background: #1a1a1a !important;
 }
 
@@ -95,7 +96,8 @@ div[data-name="documentSettings-close"][data-hovered="true"],
 ._21424877-lens-topStack:before,
 ._266831ea-lens-stack,
 ._77b27948-lens-bottomStack:after,
-._77b27948-lens-bottomStack:before {
+._77b27948-lens-bottomStack:before,
+._d0cae431-button-caps:not([data-disabled="true"])[data-hovered="true"] {
   background: #111 !important;
 }
 
@@ -291,4 +293,13 @@ p {
 ._77b27948-lens-bottomStack:after,
 ._77b27948-lens-bottomStack:before {
   box-shadow: 0 -3px 7px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+._15afcc24-base-fullCard {
+  box-shadow: 0 calc(var(--rem) * 1px * 0.625) calc(var(--rem) * 1px * 3.5) 0
+    rgba(0, 0, 0, 0.45) !important;
+}
+
+._2401ecb5-alerts-markSuccess {
+  background-color: #39403e !important;
 }
