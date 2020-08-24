@@ -40,7 +40,8 @@ div[data-name="documentSettings-close"][data-hovered="true"],
 ._f6603af6-index_layout-view,
 ._fb5cc800-replacements_labels-fullSentenceBackground,
 ._09523b8b-plagiarism-copyableReference,
-._15afcc24-base-fullCard {
+._15afcc24-base-fullCard,
+._b7a3cd59-default-cozyCardContainer {
   background: #1a1a1a !important;
 }
 
@@ -302,4 +303,9 @@ p {
 
 ._2401ecb5-alerts-markSuccess {
   background-color: #39403e !important;
+}
+
+._b7a3cd59-default-cozyCardContainer {
+  box-shadow: 0 calc(var(--rem) * 1px * 0.625) calc(var(--rem) * 1px * 3.5) 0
+    rgba(0, 0, 0, 0.45) !important;
 }
