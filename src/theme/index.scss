@@ -5,18 +5,18 @@ body,
 ._c6752cf1-template-container,
 ._4c6132e5-footer-fContainer,
 ._76a996fe-editor-wordCounter,
-div[role="scrollbar-lenses"] div[data-hovered="true"],
-._4daed495-navigation-outcomeBtn:not([data-disabled="true"])[data-hovered="true"],
-._4daed495-navigation-outcomeBtn[data-active="true"],
-div[data-name="hide-assistant"][data-hovered="true"],
-._1ccb74a9-document_settings-menuButtonWrapper div[data-hovered="true"],
-._1ccb74a9-document_settings-menuButtonWrapper a[data-hovered="true"],
+div[role='scrollbar-lenses'] div[data-hovered='true'],
+._4daed495-navigation-outcomeBtn:not([data-disabled='true'])[data-hovered='true'],
+._4daed495-navigation-outcomeBtn[data-active='true'],
+div[data-name='hide-assistant'][data-hovered='true'],
+._1ccb74a9-document_settings-menuButtonWrapper div[data-hovered='true'],
+._1ccb74a9-document_settings-menuButtonWrapper a[data-hovered='true'],
 ._abe26e6c-document_settings-menuHead:hover,
 ._2154f8ba-button-groupSticky ._247ac8af-button-white,
 ._247ac8af-button-white,
-div[data-name="documentSettings-close"][data-hovered="true"],
-._5781edd2-button-groupVertical div[data-hovered="true"],
-._c149969b-dropdown-list div[data-hovered="true"],
+div[data-name='documentSettings-close'][data-hovered='true'],
+._5781edd2-button-groupVertical div[data-hovered='true'],
+._c149969b-dropdown-list div[data-hovered='true'],
 ._d024f913-loader-lines,
 ._8cb1f675-loader-documentLines,
 ._83c77c93-view-firstTierLoader > *,
@@ -41,27 +41,30 @@ div[data-name="documentSettings-close"][data-hovered="true"],
 ._fb5cc800-replacements_labels-fullSentenceBackground,
 ._09523b8b-plagiarism-copyableReference,
 ._15afcc24-base-fullCard,
-._b7a3cd59-default-cozyCardContainer {
+._b7a3cd59-default-cozyCardContainer,
+._cd656682-default-cardFooter._97466bd7-default-muteQuotedAdvice,
+.f1pt2c24,
+.f10wkw6u .f1pt2c24 {
   background: #1a1a1a !important;
 }
 
 ._3904ea66-document_actions-outcomeDocumentActionsFull,
-._fdfa38a2-button-tertiary:not([data-disabled="true"])[data-hovered="true"],
+._fdfa38a2-button-tertiary:not([data-disabled='true'])[data-hovered='true'],
 ._c149969b-dropdown-list,
 ._1cf4126f-freemium-notification-container,
 ._34c007fc-paidview-graphCircle2,
 ._12828773-set-goals-modalHeader,
 ._b051dadc-modal-footer,
-._97e57402-editor-editorContentWrapFullWidth div[data-hovered="true"],
-._f28157ea-icon-icon:not([data-disabled="true"])[data-hovered="true"],
-._f28157ea-icon-icon:not([data-disabled="true"])[data-active="true"],
+._97e57402-editor-editorContentWrapFullWidth div[data-hovered='true'],
+._f28157ea-icon-icon:not([data-disabled='true'])[data-hovered='true'],
+._f28157ea-icon-icon:not([data-disabled='true'])[data-active='true'],
 ._fe13e0b4-base-wrapper:hover,
 ._fe13e0b4-base-wrapper,
 ._16eca51c-inline-card-card,
-._d5be41ad-button-ghost:not([data-disabled="true"])[data-hovered="true"],
+._d5be41ad-button-ghost:not([data-disabled='true'])[data-hovered='true'],
 ._f20e5daf-navigation-checkingWrapper:after,
 ._401395f9-inline-uphook-card,
-._b3894505-formatting-toolbar-item[data-active="true"],
+._b3894505-formatting-toolbar-item[data-active='true'],
 ._b3894505-formatting-toolbar-item:hover,
 ._54cdc002-preferences-popup-popupHeader,
 ._aaaf94f5-news-modalHeader,
@@ -79,7 +82,7 @@ div[data-name="documentSettings-close"][data-hovered="true"],
 ._2f127f34-statistics-modalFooter,
 ._58a125b7-statistics-modalHeader,
 ._17a17efc-navigation-navigationLoaderWithToolbar:before,
-._ea183f04-button-flat:not([data-disabled="true"])[data-hovered="true"],
+._ea183f04-button-flat:not([data-disabled='true'])[data-hovered='true'],
 ._8cfa0978-document_item-item,
 ._fc686a24-document_item-actions,
 .menu_item__QbLPu:hover,
@@ -98,7 +101,11 @@ div[data-name="documentSettings-close"][data-hovered="true"],
 ._266831ea-lens-stack,
 ._77b27948-lens-bottomStack:after,
 ._77b27948-lens-bottomStack:before,
-._d0cae431-button-caps:not([data-disabled="true"])[data-hovered="true"] {
+._d0cae431-button-caps:not([data-disabled='true'])[data-hovered='true'],
+.f1wa3z76:not([data-disabled='true'])[data-hovered='true'],
+.f1sjg4us:not([data-disabled='true'])[data-hovered='true'],
+.f1wvdo0u:not([data-disabled='true'])[data-hovered='true'],
+.f10wkw6u .f1pt2c24:not([data-active='true']) {
   background: #111 !important;
 }
 
@@ -106,8 +113,8 @@ div[data-name="documentSettings-close"][data-hovered="true"],
 ._a9915700-default-description,
 ._0bdc6257-typography-smallLight,
 ._22a106cc-typography-small,
-._ffaf732e-all_alerts_button-outcomeBtn:not([data-disabled="true"])[data-hovered="true"],
-._ffaf732e-all_alerts_button-outcomeBtn[data-active="true"],
+._ffaf732e-all_alerts_button-outcomeBtn:not([data-disabled='true'])[data-hovered='true'],
+._ffaf732e-all_alerts_button-outcomeBtn[data-active='true'],
 ._f6892bbc-button-button,
 ._40dc33a5-navigation-outcomeStatus,
 ._6720b96d-lens-lensTitle,
@@ -138,29 +145,32 @@ div[data-name="documentSettings-close"][data-hovered="true"],
 ._ab8099c9-examples-yellow,
 ._5af5560a-default-fullSentenceCardCheckbox,
 ._f25d8162-typography-score,
-._537441f0-plagiarism-textToCopy {
+._537441f0-plagiarism-textToCopy,
+.f1rx9jzm,
+.fqelrj5,
+.fal6plv,
+._ada2a274-lens-toAllAlertsButton,
+.f1vn8v6g,
+.f1wvdo0u,
+.fq061rn {
   color: #fff !important;
 }
 
-div[data-name="upgrade"]
-  > ._f28157ea-icon-icon:not([data-disabled="true"])[data-hovered="true"],
-._f28157ea-icon-icon:not([data-disabled="true"])[data-active="true"],
+div[data-name='upgrade']
+  > ._f28157ea-icon-icon:not([data-disabled='true'])[data-hovered='true'],
+._f28157ea-icon-icon:not([data-disabled='true'])[data-active='true'],
 ._2af2075c-notifications-gray i,
-._f28157ea-icon-icon:not([data-disabled="true"])[data-hovered="true"],
-._f28157ea-icon-icon:not([data-disabled="true"])[data-active="true"],
+._f28157ea-icon-icon:not([data-disabled='true'])[data-hovered='true'],
+._f28157ea-icon-icon:not([data-disabled='true'])[data-active='true'],
 ._5911ca76-search_input-search,
 .textarea_textarea__3JL3O {
   background: none !important;
 }
 
-._ffaf732e-all_alerts_button-outcomeBtn:not([data-disabled="true"])[data-hovered="true"],
-._ffaf732e-all_alerts_button-outcomeBtn[data-active="true"],
+._ffaf732e-all_alerts_button-outcomeBtn:not([data-disabled='true'])[data-hovered='true'],
+._ffaf732e-all_alerts_button-outcomeBtn[data-active='true'],
 ._6e962640-document_settings-separator {
   background: #333 !important;
-}
-
-p {
-  color: #fff;
 }
 
 ._b88fbfed-navigation-baseWrapper {
@@ -217,7 +227,7 @@ p {
   box-shadow: 0 -25px 56px 0 rgba(0, 0, 0.05) !important;
 }
 
-._2f91565c-button-primary[data-disabled="true"] {
+._2f91565c-button-primary[data-disabled='true'] {
   background-color: #34ba96 !important;
 }
 
@@ -247,7 +257,7 @@ p {
   border-color: #111 !important;
 }
 
-._247ac8af-button-white:not([data-disabled="true"])[data-active="true"] {
+._247ac8af-button-white:not([data-disabled='true'])[data-active='true'] {
   background: #638eeb !important;
 }
 
@@ -308,4 +318,8 @@ p {
 ._b7a3cd59-default-cozyCardContainer {
   box-shadow: 0 calc(var(--rem) * 1px * 0.625) calc(var(--rem) * 1px * 3.5) 0
     rgba(0, 0, 0, 0.45) !important;
+}
+
+.f10wkw6u .f1pt2c24 {
+  border-right: 2px solid #1a1a1a !important;
 }
