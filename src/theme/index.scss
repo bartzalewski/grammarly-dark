@@ -44,7 +44,9 @@ div[data-name='documentSettings-close'][data-hovered='true'],
 ._b7a3cd59-default-cozyCardContainer,
 ._cd656682-default-cardFooter._97466bd7-default-muteQuotedAdvice,
 .f1pt2c24,
-.f10wkw6u .f1pt2c24 {
+.f10wkw6u .f1pt2c24,
+._28e2603d-super-superWrapper:after,
+._28e2603d-super-superWrapper:before {
   background: #1a1a1a !important;
 }
 
@@ -105,7 +107,8 @@ div[data-name='documentSettings-close'][data-hovered='true'],
 .f1wa3z76:not([data-disabled='true'])[data-hovered='true'],
 .f1sjg4us:not([data-disabled='true'])[data-hovered='true'],
 .f1wvdo0u:not([data-disabled='true'])[data-hovered='true'],
-.f10wkw6u .f1pt2c24:not([data-active='true']) {
+.f10wkw6u .f1pt2c24:not([data-active='true']),
+.f5gx5g0:not([data-disabled='true'])[data-hovered='true'] {
   background: #111 !important;
 }
 
@@ -152,7 +155,12 @@ div[data-name='documentSettings-close'][data-hovered='true'],
 ._ada2a274-lens-toAllAlertsButton,
 .f1vn8v6g,
 .f1wvdo0u,
-.fq061rn {
+.fq061rn,
+._184b1ad1-footer-fItem a,
+.fhsusol,
+.f1riuydc,
+._856d2b5f-statistics-metricTitle,
+.f10buadf {
   color: #fff !important;
 }
 
@@ -208,7 +216,7 @@ div[data-name='upgrade']
 }
 
 ._f013e3a8-alerts-correctness:not([data-superscript])._766b105c-alerts-markSelectedHigh {
-  background-color: rgba(255, 0, 0, 0.1) !important;
+  background-color: #29040a !important;
 }
 
 ._7f0a9373-alerts-premium:not([data-superscript])._766b105c-alerts-markSelectedHigh {
@@ -241,7 +249,7 @@ div[data-name='upgrade']
 
 ._5b611774-alerts-synonym:not([data-superscript])._71febd73-alerts-markSelected,
 ._5b611774-alerts-synonym:not([data-superscript])._766b105c-alerts-markSelectedHigh {
-  background: #bdcad9 !important;
+  background: #404348 !important;
 }
 
 ._08b2990a-modal-wrapperDark {
