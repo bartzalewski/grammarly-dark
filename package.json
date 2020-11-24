@@ -4,7 +4,7 @@
   "description": "A dark theme for Grammarly documents",
   "scripts": {
     "build:html": "parcel build src/pages/popup.html",
-    "build:css": "parcel build src/theme/index.scss && rm dist/index.css.map",
+    "build:css": "parcel build src/theme/index.css && rm dist/index.css.map",
     "build:icons": "parcel build src/icons/*",
     "build:manifest-chrome": "cp src/manifest/manifest-chrome.json dist/ && cd dist && ren manifest-chrome.json manifest.json",
     "build:chrome": "npm run build:html && npm run build:css && npm run build:icons && npm run build:manifest-chrome",
