@@ -1,0 +1,557 @@
+:root {
+  --primary-color: #1a1a1a;
+  --secondary-color: #111;
+  --text-color: #fff;
+  --none: none;
+}
+
+body {
+  background: var(--primary-color) !important;
+}
+
+/* 1. EDITOR START */
+/* https://app.grammarly.com/ddocs/:id */
+
+/* Top Container */
+._c4058cde-editor-toolbarTitleContainer {
+  background: var(--no-bg) !important;
+}
+
+/* Footer Container */
+._4c6132e5-footer-fContainer {
+  background: var(--primary-color) !important;
+}
+
+/* Settings Container */
+._d6690e31-document_settings-documentSettings {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
+}
+
+/* Settings Header Shadow */
+._abe26e6c-document_settings-menuHead {
+  box-shadow: var(--none) !important;
+}
+
+/* Settings Hamburger Wrapper */
+._59320e06-document_settings-expandButtonAnimationWrapper {
+  box-shadow: var(--none) !important;
+}
+
+/* Settings Editor settings Box */
+._54cdc002-preferences-popup-popupHeader {
+  background: var(--secondary-color) !important;
+}
+
+/* Footer Counter */
+._76a996fe-editor-wordCounter {
+  background: var(--primary-color) !important;
+}
+
+/* Footer Counter Box */
+.f18we7n4 {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
+}
+
+/* Footer Counter Box Select */
+.fip5qph {
+  color: var(--text-color) !important;
+}
+
+/* Footer Toolbox Hover */
+._b3894505-formatting-toolbar-item:hover {
+  background: var(--secondary-color) !important;
+}
+
+/* Footer Toolbox Background Selected */
+._b3894505-formatting-toolbar-item[data-active='true'] {
+  background: var(--secondary-color) !important;
+}
+
+/* Right Sidebar */
+._b88fbfed-navigation-baseWrapper {
+  background: var(--secondary-color) !important;
+}
+
+/* Right Sidebar Box Title */
+._4daed495-navigation-outcomeBtn {
+  color: var(--text-color) !important;
+}
+
+/* Right Sidebar Box Description */
+.f1vn8v6g {
+  color: var(--text-color) !important;
+}
+
+/* Right Sidebar Shadow */
+._e4058ac6-navigation-wrapper {
+  box-shadow: var(--none) !important;
+}
+
+/* Right Sidebar All Alerts Title */
+.fal6plv {
+  color: var(--text-color) !important;
+}
+
+/* Right Sidebar All Alerts Selected */
+._ffaf732e-all_alerts_button-outcomeBtn:not([data-disabled='true'])[data-hovered='true'],
+._ffaf732e-all_alerts_button-outcomeBtn[data-active='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Right Sidebar Alerts Background */
+._4daed495-navigation-outcomeBtn:not([data-disabled='true'])[data-hovered='true'],
+._4daed495-navigation-outcomeBtn[data-active='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Right Sidebar Alerts Description */
+._40dc33a5-navigation-outcomeStatus {
+  color: var(--text-color) !important;
+}
+
+/* Right Sidebar Freemium Container */
+._1cf4126f-freemium-notification-container {
+  background: var(--secondary-color) !important;
+}
+
+/* Right Sidebar Freemium Container Maybe later Hover Background */
+.fefqyxr:not([data-disabled='true'])[data-hovered='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Right Sidebar Hide Assistant Hover Background */
+.f12o5374[data-hovered='true'],
+.premiumPersistentTooltipIcon_f1af0p9e:hover,
+.undoButton_f14j5pen:not([data-disabled='true'])[data-hovered='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Right Sidebar Box Display Header */
+.modalHeader_f1t3t5iw {
+  background: var(--secondary-color) !important;
+}
+
+/* Right Sidebar Box Display Body */
+.modal-body_fv2j1xz {
+  background: var(--secondary-color) !important;
+}
+
+/* Right Sidebar Box Display Footer */
+.modal-footer_fa6f5z4 {
+  background: var(--secondary-color) !important;
+}
+
+/* Right Sidebar Box SubTitle */
+.fq061rn {
+  color: var(--text-color) !important;
+}
+
+/* Right Sidebar Box Not Selected */
+.f10wkw6u .f19bi8w7:not([data-active='true']),
+.toggleNonPriority_frpauzj:not([data-disabled='true'])[data-hovered='true'],
+.f19bi8w7 {
+  background: var(--primary-color) !important;
+}
+
+/* Right Sidebar Box Not Selected Hover */
+.f19bi8w7:not([data-disabled='true'])[data-hovered='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Right Sidebar Box Right Border */
+.f10wkw6u .f19bi8w7 {
+  border-right: var(--none) !important;
+}
+
+/* Right Sidebar Box Right Shadow */
+._9fdde2b9-denali-editor-page-z400 {
+  box-shadow: var(--none) !important;
+}
+
+/* Right Sidebar Overall score number */
+.fhsusol {
+  color: var(--text-color) !important;
+}
+
+/* Right Sidebar Overall score Statistics Header */
+.statistics-modalHeader_fdxoiy7,
+.super-loadingWrapper_fo4trja,
+.statistics-modalReady_fo4trja {
+  background: var(--secondary-color) !important;
+}
+
+/* Right Sidebar Overall score Statistics Title */
+.f1riuydc {
+  color: var(--text-color) !important;
+}
+
+/* Right Sidebar Overall score Statistics Description */
+.statistics-wrapper_f8tauzg,
+.metricTitle_f15fvivp,
+.f10buadf {
+  color: var(--text-color) !important;
+}
+
+/* Right Sidebar Overall score Statistics Download PDF Report Hover */
+.fxiq657:not([data-disabled='true'])[data-hovered='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Right Sidebar Grammar Box */
+.f1w0oin1 {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
+}
+
+/* Right Sidebar ToolTips */
+.wrapper_f14kojdn,
+.highlightedText_fq1iivx,
+.text_fq1iivx {
+  background: var(--secondary-color) !important;
+  color: var(--text-color) !important;
+  box-shadow: var(--none) !important;
+}
+
+/* Right Sidebar Learn More Button Hover */
+.f6vcheh:not([data-disabled='true'])[data-hovered='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Right Sidebar Move Icons */
+.f1lkie4u {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
+}
+
+/* Right Sidebar Performance Wrapper */
+.statistics-wrapper_f8tauzg,
+.modal-modal_fyn0ufy {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
+}
+
+/* Right Sidebar Performance Score */
+.holder_f19n375c text {
+  fill: var(--text-color) !important;
+}
+
+/* Editor Text */
+.fqelrj5 {
+  color: var(--text-color) !important;
+}
+
+/* Editor Title */
+.f1rx9jzm {
+  color: var(--text-color) !important;
+}
+
+/* Editor Right Alert Title */
+.lensTitle_f9c2lhr {
+  color: var(--text-color) !important;
+}
+
+/* Editor Right Back to all alerts */
+.toAllAlertsButton_fmtl6ch {
+  color: var(--text-color) !important;
+}
+
+/* Editor Back to all alerts Hover Background */
+.fip5qph:not([data-disabled='true'])[data-hovered='true'] {
+  background: var(--secondary-color) !important;
+}
+
+/* Editor Right Nothing to check yet Text */
+._9958f75c-assistant-successLens {
+  color: var(--text-color) !important;
+}
+
+/* Editor Right Top Shadow */
+.headerWrapper_f1tmpx3j {
+  background: var(--none) !important;
+}
+
+/* Editor Right Circle Background */
+._34c007fc-paidview-graphCircle2 {
+  background: var(--secondary-color) !important;
+}
+
+/* Editor Text Hover Synonyms */
+._2c5ad319-synonyms-emptyResultWrapper,
+._2059d002-synonyms-wrapper {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
+}
+
+/* Editor Text Hover Empty Synonyms */
+._2c5ad319-synonyms-emptyResultWrapper {
+  color: var(--text-color) !important;
+}
+
+/* Editor More alerts */
+.bottomStack_f1wu09pt,
+.bottomStack_f1wu09pt:before,
+.bottomStack_f1wu09pt:after,
+.topStack_f1dk16pa,
+.topStack_f1dk16pa:before,
+.topStack_f1dk16pa:after,
+.super-superWrapper_f19rq2g1:before,
+.super-superWrapper_f19rq2g1:after {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
+}
+
+/* Editor Alerts */
+._b470f848-alerts-delivery:not([data-superscript])._e71f8356-alerts-markSelectedFocused {
+  background: #2c183b !important;
+}
+._62314e30-alerts-clarity:not([data-superscript])._e71f8356-alerts-markSelectedFocused {
+  background: #151d3b !important;
+}
+._fb592533-alerts-engagement:not([data-superscript])._e71f8356-alerts-markSelectedFocused {
+  background: #052920 !important;
+}
+.f4pdyvb:not([data-superscript]).alerts-markSelectedFocused {
+  background: #4a370e !important;
+}
+.f18us0f3:not([data-superscript]).alerts-markSelectedFocused {
+  background: #0a1021 !important;
+}
+.f1akduh6:not([data-superscript]).alerts-markSelectedFocused {
+  background: #361d48 !important;
+}
+.f1itscpz:not([data-superscript]).alerts-markSelectedFocused {
+  background: #4a0611 !important;
+}
+.fqsntaq:not([data-superscript]).alerts-markSelectedFocused {
+  background: #063e31 !important;
+}
+
+/* Editor Alert Inconsistent capitalization */
+.f1itscpz:not([data-superscript]).alerts-markSelected,
+.f1itscpz:not([data-superscript]).alerts-markSelectedHigh {
+  background: #4a0611 !important;
+}
+
+/* Editor Text Selection */
+.f1ran3fv ::selection {
+  background: #999 !important;
+}
+
+/* Editor Conventions Popup */
+.fj7k86q {
+  color: inherit !important;
+}
+
+/* Editor Clarity Popup */
+.f13iivre {
+  color: var(--text-color) !important;
+}
+
+/* Editor Clarity Beta Popup */
+.fmuimlf {
+  background: var(--secondary-color) !important;
+}
+
+/* Editor Consistency Popup */
+.fjlhwhm {
+  color: var(--text-color) !important;
+}
+
+/* Editor Popup Highlight changes */
+.wrapper_fgslipt {
+  color: var(--text-color) !important;
+}
+
+/* Editor What's New Popup (Premium) */
+._aaaf94f5-news-modalHeader {
+  background: var(--secondary-color) !important;
+}
+
+/* Editor "Find in document" shadow */
+._fb06f6a5-search_bar-view {
+  box-shadow: var(--none) !important;
+}
+
+/* Editor "Find in document" */
+._fb06f6a5-search_bar-view,
+._d192b39d-search_bar-searchInputWrapper,
+._212467d7-search_bar-searchInput {
+  background: var(--secondary-color) !important;
+}
+
+/* Editor "Find in document" color */
+._212467d7-search_bar-searchInput {
+  color: var(--text-color) !important;
+}
+
+/* Editor "Everything's clear and polished." popup */
+.faq6hu5 {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
+}
+
+/* EDITOR END */
+
+/* 2. DASHBOARD START */
+/* https://app.grammarly.com */
+
+/* Dashboard Background */
+._1de8a3cd-index_layout-main {
+  background: var(--primary-color) !important;
+}
+
+/* Dashboard Search */
+._5911ca76-search_input-search {
+  background: var(--primary-color) !important;
+}
+
+/* Dashboard Search Text Color */
+._7871d11f-search_input-input {
+  color: var(--text-color) !important;
+}
+
+/* Dashboard Item Background */
+._8cfa0978-document_item-item {
+  background: var(--secondary-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Dashboard Item Footer Background */
+._fc686a24-document_item-actions {
+  background: var(--secondary-color) !important;
+  border-top: var(--none) !important;
+}
+
+/* Dashboard Popup */
+._dd595851-banner-banner {
+  background: var(--secondary-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* DASHBOARD END */
+
+/* 3. DASHBOARD ACCOUNT START */
+/* https://account.grammarly.com */
+
+/* Sidebar */
+.sidebar_d_container__11M9S {
+  background: var(--secondary-color) !important;
+}
+
+/* Sidebar Color */
+.menu_itemLabel__2qLst {
+  color: var(--text-color) !important;
+}
+
+/* Sidebar Selected */
+.menu_item__QbLPu:hover,
+.menu_itemSelected__2oy3_ {
+  background: var(--primary-color) !important;
+}
+
+/* Right Side Color */
+._841674e3-typography-header4 {
+  color: var(--text-color) !important;
+}
+
+/* Right Side Button Hover (Update) */
+._d5be41ad-button-ghost:not([data-disabled='true'])[data-hovered='true'] {
+  background: var(--secondary-color) !important;
+}
+
+/* Section Header (Profile, Email Preference...) */
+._3a252d43-typography-paper {
+  color: var(--text-color) !important;
+}
+
+/* Customize Page Color */
+._ca4d018a-typography-base {
+  color: var(--text-color) !important;
+}
+
+/* Customize Page Buttons */
+.buttons_secondary__64-Gw {
+  background-color: var(--primary-color) !important;
+}
+
+/* Customize Page Buttons List */
+._ea183f04-button-flat,
+._f6892bbc-button-button {
+  background: var(--primary-color) !important;
+}
+
+/* Customize Page Dictionary Input */
+.dictionary_addInput__2bBB9 {
+  background: var(--secondary-color) !important;
+}
+
+/* Subscription Heading (Free, Premium) */
+._360f388b-typography-header3 {
+  color: var(--text-color) !important;
+}
+
+/* Style Guide Color */
+.style_guide_text__1Sesp {
+  color: var(--text-color) !important;
+}
+
+/* Product Feedback */
+.modal_modal__T1FlG,
+._b051dadc-modal-footer {
+  background: var(--primary-color) !important;
+}
+
+/* Product Feedback Text */
+._139bc25f-typography-header1,
+._f50c2d01-typography-header2 {
+  color: var(--text-color) !important;
+}
+
+/* Product Feedback Input */
+.input_input__1n2la,
+.textarea_textarea__3JL3O {
+  background: var(--secondary-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* DASHBOARD ACCOUNT END */
+
+/* 4. APPS ACCOUNT START */
+/* https://account.grammarly.com/apps */
+
+/* App Boxes */
+._384a982f-apps_page-app {
+  background: var(--secondary-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* App Header (Grammarly Apps) */
+._db2042eb-page_common-header {
+  color: var(--text-color) !important;
+}
+
+/* APPS ACCOUNT END */
+
+/* 5. LOADER START */
+
+._83c77c93-view-firstTierLoader > *,
+.documentLines_fs7qtn,
+.lines_f1xq5kpbm,
+.documentTitle_fqx2ubq,
+.lensviewLines_f1j52u7e,
+.lines_f1xq5kpb,
+._3a2067f5-assistant-loaderWrapper::before,
+._b24bf93c-document-view-baseLoaderClass,
+.documentTitleWrap_f1x3z5y1:before,
+.lensviewTitle_fdm70tr,
+.loaderInitial_f13982ta {
+  background: var(--primary-color) !important;
+}
+
+._f20e5daf-navigation-checkingWrapper:after {
+  background: var(--secondary-color) !important;
+}
+
+/* LOADER END */
