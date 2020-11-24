@@ -392,6 +392,11 @@ body {
   box-shadow: var(--none) !important;
 }
 
+/* Editor Rename document hover */
+._05f3ae84-editor-headerTitleHighlight:before {
+  background: var(--secondary-color) !important;
+}
+
 /* EDITOR END */
 
 /* 2. DASHBOARD START */
