@@ -9,7 +9,7 @@ body {
   background: var(--primary-color) !important;
 }
 
-/* 1. EDITOR START */
+/* 1. NEW EDITOR START */
 /* https://app.grammarly.com/ddocs/:id */
 
 /* Top Container */
@@ -397,7 +397,7 @@ body {
   background: var(--secondary-color) !important;
 }
 
-/* EDITOR END */
+/* NEW EDITOR END */
 
 /* 2. DASHBOARD START */
 /* https://app.grammarly.com */
@@ -454,6 +454,12 @@ body {
 .menu_item__QbLPu:hover,
 .menu_itemSelected__2oy3_ {
   background: var(--primary-color) !important;
+}
+
+/* Sidebar Menu Hover (Product Feedback, Logout) */
+._c149969b-dropdown-list {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
 }
 
 /* Right Side Color */
@@ -560,3 +566,68 @@ body {
 }
 
 /* LOADER END */
+
+/* 6. OLD EDITOR START */
+/* https://app.grammarly.com/docs/:id */
+
+/* Editor Background */
+._19ddea7d-editor-page-editor {
+  background: var(--primary-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Title Background Hover */
+._75afb11d-editor-page-title:focus,
+._75afb11d-editor-page-title:hover {
+  background: var(--primary-color) !important;
+}
+
+/* Editor Bottom Bar */
+._b50f7006-editor_status_toolbar-toolbarWrap:after {
+  background: var(--primary-color) !important;
+}
+
+/* Editor Popup */
+._90701863-card-cardExpanded {
+  background: var(--secondary-color) !important;
+}
+
+/* Editor Popup Content Color */
+._444c8000-card-card {
+  color: var(--text-color) !important;
+}
+
+/* Editor Popup Alert */
+._feb474e7-alert_examples-examples ._40c817f7-alert_examples-exampleContent,
+._34d3c52f-card-content b {
+  background: var(--secondary-color) !important;
+}
+
+/* Editor Content Color */
+.textarea {
+  color: var(--text-color) !important;
+}
+
+/* Editor Page Title */
+._75afb11d-editor-page-title {
+  color: var(--text-color) !important;
+}
+
+/* Tutorial Popup */
+._3abb6559-tutorial-tutorial {
+  background: var(--secondary-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Tutorial Popup Useless Shadows */
+._e79dace4-tutorial-steps:after,
+._e79dace4-tutorial-steps:before {
+  display: var(--none) !important;
+}
+
+/* Tutorial Popup List */
+._7d6dae5a-tutorial-navItem {
+  background: var(--secondary-color) !important;
+}
+
+/* OLD EDITOR END */

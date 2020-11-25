@@ -5,7 +5,10 @@
   "version": "1.0.9",
   "content_scripts": [
     {
-      "matches": ["https://*.grammarly.com/*"],
+      "matches": [
+        "https://app.grammarly.com/*",
+        "https://account.grammarly.com/*"
+      ],
       "css": ["theme/index.css"]
     }
   ],
