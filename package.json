@@ -1,6 +1,6 @@
 {
   "name": "grammarly-dark",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "A dark theme for Grammarly documents",
   "scripts": {
     "build:html": "parcel build src/pages/popup.html",
@@ -25,6 +25,6 @@
     "parcel-bundler": "^1.12.4"
   },
   "dependencies": {
-    "sass": "^1.29.0"
+    "sass": "^1.32.8"
   }
 }

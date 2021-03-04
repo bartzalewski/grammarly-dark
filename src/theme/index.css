@@ -306,10 +306,13 @@ body {
 ._b470f848-alerts-delivery:not([data-superscript])._e71f8356-alerts-markSelectedFocused {
   background: #2c183b !important;
 }
-._62314e30-alerts-clarity:not([data-superscript])._e71f8356-alerts-markSelectedFocused {
+._62314e30-alerts-clarity:not([data-superscript])._e71f8356-alerts-markSelectedFocused,
+.fd8iova:not([data-superscript]).alerts-markSelectedFocused {
   background: #151d3b !important;
 }
-._fb592533-alerts-engagement:not([data-superscript])._e71f8356-alerts-markSelectedFocused {
+._fb592533-alerts-engagement:not([data-superscript])._e71f8356-alerts-markSelectedFocused,
+.fo23z0r:not([data-superscript]).alerts-markSelectedFocused,
+.f1bex95n:not([data-superscript]).alerts-markSelectedFocused {
   background: #052920 !important;
 }
 .f4pdyvb:not([data-superscript]).alerts-markSelectedFocused {
@@ -318,10 +321,13 @@ body {
 .f18us0f3:not([data-superscript]).alerts-markSelectedFocused {
   background: #0a1021 !important;
 }
-.f1akduh6:not([data-superscript]).alerts-markSelectedFocused {
+.f1akduh6:not([data-superscript]).alerts-markSelectedFocused,
+.felkq2b:not([data-superscript]).alerts-markSelectedFocused {
   background: #361d48 !important;
 }
-.f1itscpz:not([data-superscript]).alerts-markSelectedFocused {
+.f1itscpz:not([data-superscript]).alerts-markSelectedFocused,
+.fyl3dsu:not([data-superscript]).alerts-markSelectedFocused,
+.fyl3dsu:not([data-superscript]).alerts-markVisible {
   background: #4a0611 !important;
 }
 .fqsntaq:not([data-superscript]).alerts-markSelectedFocused {
@@ -394,6 +400,37 @@ body {
 
 /* Editor Rename document hover */
 ._05f3ae84-editor-headerTitleHighlight:before {
+  background: var(--secondary-color) !important;
+}
+
+/* Editor Right Side Popup Emoji */
+.toneLogo_fgk6pry,
+.cardLogo_f67r6ea {
+  background: var(--secondary-color) !important;
+}
+
+/* Text Highlight Color */
+.f1iqkgeb {
+  background: #555 !important;
+}
+
+/* Plagiarism Popup Upper Title */
+.plagiarismLensTitle_f1e9h7gx {
+  color: var(--text-color) !important;
+}
+
+/* Plagiarism Popup Hover Reference Background */
+.copyableReference_fk05yd9 {
+  background: var(--primary-color) !important;
+}
+
+/* Plagiarism Popup Hover Reference Color */
+.textToCopy_f2bznyb {
+  color: var(--text-color) !important;
+}
+
+/* All Suggestions Popup Top Wrapper */
+.modalHeader_fekstxg {
   background: var(--secondary-color) !important;
 }
 
@@ -563,6 +600,30 @@ body {
 
 ._f20e5daf-navigation-checkingWrapper:after {
   background: var(--secondary-color) !important;
+}
+
+/* Loader Left Side */
+
+._f032539d-document-view-textLoaderWrap,
+._f032539d-document-view-textLoaderWrap > *,
+._3e8683e1-document-view-secondTierLoader {
+  display: none !important;
+}
+
+.loaderInitial_f13982ta,
+.loader1_f1wsef3r,
+.loader2_f16zvmpc,
+.titleWrap_f1mgyl9u,
+.documentLines_fs7qtn,
+.lines_f1xq5kpb,
+.empty_fke3g6b {
+  background: none !important;
+  display: none !important;
+}
+
+.wrapper_fnfdlj,
+._3a2067f5-assistant-loaderWrapper {
+  display: none !important;
 }
 
 /* LOADER END */
