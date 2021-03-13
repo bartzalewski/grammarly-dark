@@ -1,6 +1,6 @@
 {
   "name": "grammarly-dark",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "A dark theme for Grammarly documents",
   "scripts": {
     "build:html": "parcel build src/pages/popup.html",

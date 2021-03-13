@@ -334,6 +334,11 @@ body {
   background: #063e31 !important;
 }
 
+/* Editor Alert Premium */
+.fmv7ovy:not([data-superscript]).alerts-markSelectedFocused {
+  background: #70500a !important;
+}
+
 /* Editor Alert Inconsistent capitalization */
 .f1itscpz:not([data-superscript]).alerts-markSelected,
 .f1itscpz:not([data-superscript]).alerts-markSelectedHigh {
@@ -373,6 +378,12 @@ body {
 /* Editor What's New Popup (Premium) */
 ._aaaf94f5-news-modalHeader {
   background: var(--secondary-color) !important;
+}
+
+/* Editor "A strong business needs consistent writing" Popup (Grammarly Business) */
+._561ee553-gb-uphook-container {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
 }
 
 /* Editor "Find in document" shadow */
@@ -431,6 +442,17 @@ body {
 
 /* All Suggestions Popup Top Wrapper */
 .modalHeader_fekstxg {
+  background: var(--secondary-color) !important;
+}
+
+/* Editor Link Popup */
+._246f3a85-formatting-link-wrapper {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
+}
+
+/* Editor Link Edit Link Popup */
+._cfc0cf49-formatting-link-urlInput {
   background: var(--secondary-color) !important;
 }
 
