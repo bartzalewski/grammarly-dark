@@ -39,7 +39,8 @@ body {
 }
 
 /* Settings Editor settings Box */
-._54cdc002-preferences-popup-popupHeader {
+._54cdc002-preferences-popup-popupHeader,
+.preferencePopup-popupHeader_fzfmq6t {
   background: var(--secondary-color) !important;
 }
 
@@ -70,7 +71,9 @@ body {
 }
 
 /* Right Sidebar */
-._b88fbfed-navigation-baseWrapper {
+._b88fbfed-navigation-baseWrapper,
+.fkctr27,
+.wrapper_f142td61 {
   background: var(--secondary-color) !important;
 }
 
@@ -118,6 +121,11 @@ body {
 
 /* Right Sidebar Freemium Container Maybe later Hover Background */
 .fefqyxr:not([data-disabled='true'])[data-hovered='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Right Sidebar Hide Assistant Background */
+._78e3fb69-sidebar-overviewBtnA11yContrast {
   background: var(--primary-color) !important;
 }
 
@@ -196,6 +204,11 @@ body {
 
 /* Right Sidebar Overall score Statistics Download PDF Report Hover */
 .fxiq657:not([data-disabled='true'])[data-hovered='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Right Sidebar Goals Popup Buttons */
+.fco4omt {
   background: var(--primary-color) !important;
 }
 
@@ -297,7 +310,8 @@ body {
 .topStack_f1dk16pa:before,
 .topStack_f1dk16pa:after,
 .super-superWrapper_f19rq2g1:before,
-.super-superWrapper_f19rq2g1:after {
+.super-superWrapper_f19rq2g1:after,
+.wrapper_f15e6ds6 {
   background: var(--secondary-color) !important;
   box-shadow: var(--none) !important;
 }
@@ -307,7 +321,8 @@ body {
   background: #2c183b !important;
 }
 ._62314e30-alerts-clarity:not([data-superscript])._e71f8356-alerts-markSelectedFocused,
-.fd8iova:not([data-superscript]).alerts-markSelectedFocused {
+.fd8iova:not([data-superscript]).alerts-markSelectedFocused,
+.fs11c1t:not([data-superscript]).alerts-markSelectedFocused {
   background: #151d3b !important;
 }
 ._fb592533-alerts-engagement:not([data-superscript])._e71f8356-alerts-markSelectedFocused,
@@ -327,7 +342,8 @@ body {
 }
 .f1itscpz:not([data-superscript]).alerts-markSelectedFocused,
 .fyl3dsu:not([data-superscript]).alerts-markSelectedFocused,
-.fyl3dsu:not([data-superscript]).alerts-markVisible {
+.fyl3dsu:not([data-superscript]).alerts-markVisible,
+.fm0t4ub:not([data-superscript]).alerts-markSelectedFocused {
   background: #4a0611 !important;
 }
 .fqsntaq:not([data-superscript]).alerts-markSelectedFocused {
@@ -335,7 +351,8 @@ body {
 }
 
 /* Editor Alert Premium */
-.fmv7ovy:not([data-superscript]).alerts-markSelectedFocused {
+.fmv7ovy:not([data-superscript]).alerts-markSelectedFocused,
+.f1y1nvl5:not([data-superscript]).alerts-markSelectedFocused {
   background: #70500a !important;
 }
 
@@ -456,6 +473,26 @@ body {
   background: var(--secondary-color) !important;
 }
 
+/* Editor "All Suggestions" Title */
+.lensTitle_femdkhe {
+  color: var(--text-color) !important;
+}
+
+/* Editor buttons hover */
+:not([data-disabled='true'])[data-hovered='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Editor Popup 3 Dots Helper Background */
+.fmogv1w {
+  background: var(--primary-color) !important;
+}
+
+/* Editor Popup 3 Dots Helper Text Color */
+.f12z00ud {
+  color: var(--text-color) !important;
+}
+
 /* NEW EDITOR END */
 
 /* 2. DASHBOARD START */
@@ -504,6 +541,11 @@ body {
   background: var(--secondary-color) !important;
 }
 
+/* Sidebar User Name */
+.typography_h5__122hF {
+  color: var(--text-color) !important;
+}
+
 /* Sidebar Color */
 .menu_itemLabel__2qLst {
   color: var(--text-color) !important;
@@ -521,14 +563,41 @@ body {
   box-shadow: var(--none) !important;
 }
 
+/* Sidebar Menu 3 Dots Popup */
+.style_dropdownMenuContent__91OW5 {
+  background: var(--secondary-color) !important;
+}
+
 /* Right Side Color */
-._841674e3-typography-header4 {
+._841674e3-typography-header4,
+.typography_small__2VD0c {
   color: var(--text-color) !important;
+}
+
+/* Right Side Bottom Section */
+.style_fixed__VpUpb {
+  background: var(--primary-color) !important;
 }
 
 /* Right Side Button Hover (Update) */
 ._d5be41ad-button-ghost:not([data-disabled='true'])[data-hovered='true'] {
   background: var(--secondary-color) !important;
+}
+
+/* Right Side "About You" DropDown */
+.dropdown_selectedOptionLabel__2-KH2,
+.dropdown_dropdownOption__6Z4QR {
+  color: var(--text-color) !important;
+}
+
+/* Right Side "About You" DropDown Hover */
+.dropdown_dropdownOption__6Z4QR:hover {
+  background: var(--secondary-color) !important;
+}
+
+/* Right Side "Danger zone" Text */
+.danger_zone_notice__1uZWb {
+  color: var(--text-color) !important;
 }
 
 /* Section Header (Profile, Email Preference...) */
@@ -537,8 +606,14 @@ body {
 }
 
 /* Customize Page Color */
-._ca4d018a-typography-base {
+._ca4d018a-typography-base,
+.dictionary_d_word__WSIHI {
   color: var(--text-color) !important;
+}
+
+/* Customize Page Dictionary Word Hover */
+.dictionary_d_wordItem__3SxOj:hover {
+  background: var(--secondary-color) !important;
 }
 
 /* Customize Page Buttons */
@@ -569,7 +644,8 @@ body {
 
 /* Product Feedback */
 .modal_modal__T1FlG,
-._b051dadc-modal-footer {
+._b051dadc-modal-footer,
+.modal-header_fx17wdj {
   background: var(--primary-color) !important;
 }
 
@@ -581,7 +657,8 @@ body {
 
 /* Product Feedback Input */
 .input_input__1n2la,
-.textarea_textarea__3JL3O {
+.textarea_textarea__3JL3O,
+.inputField_fqtfm5w {
   background: var(--secondary-color) !important;
   color: var(--text-color) !important;
 }
@@ -616,12 +693,12 @@ body {
 ._b24bf93c-document-view-baseLoaderClass,
 .documentTitleWrap_f1x3z5y1:before,
 .lensviewTitle_fdm70tr,
-.loaderInitial_f13982ta {
-  background: var(--primary-color) !important;
-}
-
+.loaderInitial_f13982ta,
+._8c7223a8-assistant-loaderWrapperA11Contrast:before,
+.loaderWrapper_f1pkultr,
+.loaderWrapperNoShadow_f1pkultr,
 ._f20e5daf-navigation-checkingWrapper:after {
-  background: var(--secondary-color) !important;
+  background: var(--primary-color) !important;
 }
 
 /* Loader Left Side */
