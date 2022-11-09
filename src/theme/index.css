@@ -13,7 +13,7 @@ body {
 /* https://app.grammarly.com/ddocs/:id */
 
 /* Top Container */
-._c4058cde-editor-toolbarTitleContainer {
+._c4058cde-editor-toolbarTitleContainer, .toolbar-toolbarTitleContainer_f1054iui {
   background: var(--no-bg) !important;
 }
 
@@ -28,6 +28,11 @@ body {
   box-shadow: var(--none) !important;
 }
 
+/* Settings Menu Title */
+._dbb880dc-document_settings-menuButton {
+  color: var(--text-color) !important;
+}
+
 /* Settings Header Shadow */
 ._abe26e6c-document_settings-menuHead {
   box-shadow: var(--none) !important;
@@ -39,18 +44,18 @@ body {
 }
 
 /* Settings Editor settings Box */
-._54cdc002-preferences-popup-popupHeader,
-.preferencePopup-popupHeader_fzfmq6t {
+.preferencePopup-popupHeader_flfbp1u,
+.preferencePopup-popupBody_f1b8jfz0 {
   background: var(--secondary-color) !important;
 }
 
 /* Footer Counter */
-._76a996fe-editor-wordCounter {
+._76a996fe-editor-wordCounter, .toolbar-wordCounter_ftobdvv {
   background: var(--primary-color) !important;
 }
 
 /* Footer Counter Box */
-.f18we7n4 {
+.f18we7n4, .f1mgy19u {
   background: var(--secondary-color) !important;
   box-shadow: var(--none) !important;
 }
@@ -70,10 +75,15 @@ body {
   background: var(--secondary-color) !important;
 }
 
+/* Premium Suggestions Title */
+.lensTitle_fmlx9tx {
+  color: var(--text-color) !important;
+}
+
 /* Right Sidebar */
 ._b88fbfed-navigation-baseWrapper,
 .fkctr27,
-.wrapper_f142td61 {
+.wrapper_frl4s8p {
   background: var(--secondary-color) !important;
 }
 
@@ -98,14 +108,20 @@ body {
 }
 
 /* Right Sidebar All Alerts Selected */
-._ffaf732e-all_alerts_button-outcomeBtn:not([data-disabled='true'])[data-hovered='true'],
-._ffaf732e-all_alerts_button-outcomeBtn[data-active='true'] {
+.fal6plv:not([data-disabled='true'])[data-hovered='true'],
+.fal6plv[data-active='true'] {
   background: var(--primary-color) !important;
 }
 
 /* Right Sidebar Alerts Background */
 ._4daed495-navigation-outcomeBtn:not([data-disabled='true'])[data-hovered='true'],
 ._4daed495-navigation-outcomeBtn[data-active='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Right Sidebar Premium Suggestions Button */
+.navigation-outcomeBtn_f160k9oy:not([data-disabled='true'])[data-hovered='true'],
+.navigation-outcomeBtn_f160k9oy[data-active='true'] {
   background: var(--primary-color) !important;
 }
 
@@ -125,7 +141,7 @@ body {
 }
 
 /* Right Sidebar Hide Assistant Background */
-._78e3fb69-sidebar-overviewBtnA11yContrast {
+._7d46768f-sidebar-overviewBtn {
   background: var(--primary-color) !important;
 }
 
@@ -184,9 +200,10 @@ body {
 }
 
 /* Right Sidebar Overall score Statistics Header */
-.statistics-modalHeader_fdxoiy7,
+.statistics-modalHeader_fd9idm0,
 .super-loadingWrapper_fo4trja,
-.statistics-modalReady_fo4trja {
+.statistics-modalReady_fo4trja,
+.statistics-modalBody_fzyocl8 {
   background: var(--secondary-color) !important;
 }
 
@@ -196,14 +213,19 @@ body {
 }
 
 /* Right Sidebar Overall score Statistics Description */
-.statistics-wrapper_f8tauzg,
-.metricTitle_f15fvivp,
+.statistics-wrapper_ft25bnf,
+.metricTitle_fwu3vvm,
 .f10buadf {
   color: var(--text-color) !important;
 }
 
 /* Right Sidebar Overall score Statistics Download PDF Report Hover */
 .fxiq657:not([data-disabled='true'])[data-hovered='true'] {
+  background: var(--primary-color) !important;
+}
+
+/* Statistics Footer */
+.statistics-modalFooter_frkbb0v {
   background: var(--primary-color) !important;
 }
 
@@ -220,7 +242,7 @@ body {
 
 /* Right Sidebar ToolTips */
 .wrapper_f14kojdn,
-.highlightedText_fq1iivx,
+.highlightedText_f3zkqju,
 .text_fq1iivx {
   background: var(--secondary-color) !important;
   color: var(--text-color) !important;
@@ -248,6 +270,19 @@ body {
 /* Right Sidebar Performance Score */
 .holder_f19n375c text {
   fill: var(--text-color) !important;
+}
+
+/* Goals Popup */
+.modalHeader_ffbp2bq,
+.modalBody_f1p7noiv {
+  background: var(--secondary-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Goals Popup Footer */
+.footerWrapper_f11xjbzd,
+.modal-footer_f1v9ogc7 {
+  background: var(--primary-color) !important;
 }
 
 /* Editor Text */
@@ -281,13 +316,18 @@ body {
 }
 
 /* Editor Right Top Shadow */
-.headerWrapper_f1tmpx3j {
+.headerWrapper_fykstwo {
   background: var(--none) !important;
 }
 
 /* Editor Right Circle Background */
 ._34c007fc-paidview-graphCircle2 {
   background: var(--secondary-color) !important;
+}
+
+/* Editor Right Circle Text */
+._224a9779-paidview-graphCounter {
+  color: var(--primary-color) !important;
 }
 
 /* Editor Text Hover Synonyms */
@@ -300,6 +340,19 @@ body {
 /* Editor Text Hover Empty Synonyms */
 ._2c5ad319-synonyms-emptyResultWrapper {
   color: var(--text-color) !important;
+}
+
+/* Editor Correction Text */
+.cards-replacements_labels-itemOriginalContent,
+.title_f1920s9l {
+  color: var(--text-color) !important;
+}
+
+/* Editor Correction Cards */
+.fullCard,
+.miniCard_f1vfd0ep {
+  background: var(--secondary-color) !important;
+  box-shadow: var(--none) !important;
 }
 
 /* Editor More alerts */
@@ -420,10 +473,9 @@ body {
   color: var(--text-color) !important;
 }
 
-/* Editor "Everything's clear and polished." popup */
-.faq6hu5 {
-  background: var(--secondary-color) !important;
-  box-shadow: var(--none) !important;
+/* Editor "Everything's clear and polished." */
+.successTitle_f1ld1brz {
+  color: var(--text-color) !important;
 }
 
 /* Editor Rename document hover */
@@ -435,6 +487,16 @@ body {
 .toneLogo_fgk6pry,
 .cardLogo_f67r6ea {
   background: var(--secondary-color) !important;
+}
+
+/* Editor Sidebar Message Popup Card */
+.container_f1yss35e {
+  background: var(--secondary-color) !important;
+}
+
+/* Right Sidebar Message Popup Text */
+.messageContainer_f1bfbslr {
+  color: var(--text-color) !important;
 }
 
 /* Text Highlight Color */
@@ -504,23 +566,33 @@ body {
 }
 
 /* Dashboard Search */
-._5911ca76-search_input-search {
+._091f4c92-search-input-input {
   background: var(--primary-color) !important;
 }
 
 /* Dashboard Search Text Color */
-._7871d11f-search_input-input {
+._92a0de9f-search-input-btn {
   color: var(--text-color) !important;
 }
 
 /* Dashboard Item Background */
-._8cfa0978-document_item-item {
+._efda521b-document-item-item {
   background: var(--secondary-color) !important;
   color: var(--text-color) !important;
 }
+ 
+._c2a79fab-document-item-download,
+._a2d214f4-document-item-remove {
+  opacity: 0.5 !important;
+}
+
+._c2a79fab-document-item-download:hover,
+._a2d214f4-document-item-remove:hover {
+  opacity: 1 !important;
+}
 
 /* Dashboard Item Footer Background */
-._fc686a24-document_item-actions {
+._78b8c5e1-document-item-actions {
   background: var(--secondary-color) !important;
   border-top: var(--none) !important;
 }
@@ -537,7 +609,7 @@ body {
 /* https://account.grammarly.com */
 
 /* Sidebar */
-.sidebar_d_container__11M9S {
+.sidebar_d_container__yyT9p {
   background: var(--secondary-color) !important;
 }
 
@@ -552,8 +624,8 @@ body {
 }
 
 /* Sidebar Selected */
-.menu_item__QbLPu:hover,
-.menu_itemSelected__2oy3_ {
+.menu_item__8iPws:hover,
+.menu_itemSelected__Bo9Lr {
   background: var(--primary-color) !important;
 }
 
@@ -585,18 +657,28 @@ body {
 }
 
 /* Right Side "About You" DropDown */
-.dropdown_selectedOptionLabel__2-KH2,
-.dropdown_dropdownOption__6Z4QR {
+.dropdown_selectedOptionLabel__j2HsJ,
+.dropdown_dropdownOption__kGjhv {
   color: var(--text-color) !important;
 }
 
 /* Right Side "About You" DropDown Hover */
-.dropdown_dropdownOption__6Z4QR:hover {
+.dropdown_dropdownOption__kGjhv:hover {
   background: var(--secondary-color) !important;
 }
 
+/* Right Side "About You" DropDown Box */
+.f1m15vir {
+  background: var(--primary-color) !important;
+}
+
+/* Right Side Danger Zone Background */
+.style_fixed__CDhd2 {
+  background: var(--primary-color) !important;
+}
+
 /* Right Side "Danger zone" Text */
-.danger_zone_notice__1uZWb {
+.danger_zone_notice__BCFIM {
   color: var(--text-color) !important;
 }
 
@@ -607,12 +689,12 @@ body {
 
 /* Customize Page Color */
 ._ca4d018a-typography-base,
-.dictionary_d_word__WSIHI {
+.dictionary_d_word__h\+8Y3 {
   color: var(--text-color) !important;
 }
 
 /* Customize Page Dictionary Word Hover */
-.dictionary_d_wordItem__3SxOj:hover {
+.dictionary_d_wordItem__Nbn-c:hover {
   background: var(--secondary-color) !important;
 }
 
@@ -628,7 +710,7 @@ body {
 }
 
 /* Customize Page Dictionary Input */
-.dictionary_addInput__2bBB9 {
+.dictionary_d_addInput__dm01I {
   background: var(--secondary-color) !important;
 }
 
@@ -638,7 +720,7 @@ body {
 }
 
 /* Style Guide Color */
-.style_guide_text__1Sesp {
+.style_guide_text__ogtgJ {
   color: var(--text-color) !important;
 }
 
@@ -660,6 +742,12 @@ body {
 .textarea_textarea__3JL3O,
 .inputField_fqtfm5w {
   background: var(--secondary-color) !important;
+  color: var(--text-color) !important;
+}
+
+/* Account Settings Texts */
+.typography_h4__q9fuF,
+.typography_small__gu33L {
   color: var(--text-color) !important;
 }
 
