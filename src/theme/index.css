@@ -3,7 +3,13 @@
   --secondary-color: #111;
   --text-color: #fff;
   --none: none;
+  --dark-blue: #1f212a;
+  --black: #000000;
+  --grey: #3f3f3f;
+  --very-light-blue: #e8eaf0;
+  --light-blue: #9bacd5;
 }
+
 
 body {
   background: var(--primary-color) !important;
@@ -121,12 +127,12 @@ body {
 
 /* Right Sidebar Freemium Container Maybe later Hover Background */
 .fefqyxr:not([data-disabled='true'])[data-hovered='true'] {
-  background: var(--primary-color) !important;
+  background: var(--black) !important;
 }
 
 /* Right Sidebar Hide Assistant Background */
 ._78e3fb69-sidebar-overviewBtnA11yContrast {
-  background: var(--primary-color) !important;
+  background-color: var(--dark-blue) !important;
 }
 
 /* Right Sidebar Hide Assistant Hover Background */
@@ -212,6 +218,24 @@ body {
   background: var(--primary-color) !important;
 }
 
+/*Hide assistend button*/
+.fvofykd {
+  background: var(--primary-color) !important;
+}
+
+/* Unselected sugestion */
+.wrapper_f1mi6c8p {
+  background: var(--primary-color) !important;
+}
+
+.f1q0y4o5 {
+  color: var(--text-color) !important;
+}
+/* suqqestion background color*/
+.fofzirn {
+  background: var(--primary-color) !important;
+}
+
 /* Right Sidebar Grammar Box */
 .f1w0oin1 {
   background: var(--secondary-color) !important;
@@ -225,6 +249,10 @@ body {
   background: var(--secondary-color) !important;
   color: var(--text-color) !important;
   box-shadow: var(--none) !important;
+}
+
+.highlightedText_fq1iivx {
+  background: var(--primary-color) !important;
 }
 
 /* Right Sidebar Learn More Button Hover */
@@ -372,6 +400,15 @@ body {
   color: inherit !important;
 }
 
+@keyframes fjzahul {
+  from {
+    background-color: var(--primary-color);
+  }
+  to {
+    background-color: var(--secondary-color);
+  }
+}
+
 /* Editor Clarity Popup */
 .f13iivre {
   color: var(--text-color) !important;
@@ -389,7 +426,7 @@ body {
 
 /* Editor Popup Highlight changes */
 .wrapper_fgslipt {
-  color: var(--text-color) !important;
+  color: var(--grey) !important;
 }
 
 /* Editor What's New Popup (Premium) */
@@ -397,30 +434,30 @@ body {
   background: var(--secondary-color) !important;
 }
 
-/* Editor "A strong business needs consistent writing" Popup (Grammarly Business) */
+/* Editor 'A strong business needs consistent writing' Popup (Grammarly Business) */
 ._561ee553-gb-uphook-container {
   background: var(--secondary-color) !important;
   box-shadow: var(--none) !important;
 }
 
-/* Editor "Find in document" shadow */
+/* Editor 'Find in document' shadow */
 ._fb06f6a5-search_bar-view {
   box-shadow: var(--none) !important;
 }
 
-/* Editor "Find in document" */
+/* Editor 'Find in document' */
 ._fb06f6a5-search_bar-view,
 ._d192b39d-search_bar-searchInputWrapper,
 ._212467d7-search_bar-searchInput {
   background: var(--secondary-color) !important;
 }
 
-/* Editor "Find in document" color */
+/* Editor 'Find in document' color */
 ._212467d7-search_bar-searchInput {
   color: var(--text-color) !important;
 }
 
-/* Editor "Everything's clear and polished." popup */
+/* Editor 'Everything's clear and polished.' popup */
 .faq6hu5 {
   background: var(--secondary-color) !important;
   box-shadow: var(--none) !important;
@@ -473,7 +510,7 @@ body {
   background: var(--secondary-color) !important;
 }
 
-/* Editor "All Suggestions" Title */
+/* Editor 'All Suggestions' Title */
 .lensTitle_femdkhe {
   color: var(--text-color) !important;
 }
@@ -584,18 +621,18 @@ body {
   background: var(--secondary-color) !important;
 }
 
-/* Right Side "About You" DropDown */
+/* Right Side 'About You' DropDown */
 .dropdown_selectedOptionLabel__2-KH2,
 .dropdown_dropdownOption__6Z4QR {
   color: var(--text-color) !important;
 }
 
-/* Right Side "About You" DropDown Hover */
+/* Right Side 'About You' DropDown Hover */
 .dropdown_dropdownOption__6Z4QR:hover {
   background: var(--secondary-color) !important;
 }
 
-/* Right Side "Danger zone" Text */
+/* Right Side 'Danger zone' Text */
 .danger_zone_notice__1uZWb {
   color: var(--text-color) !important;
 }
@@ -791,3 +828,52 @@ body {
 }
 
 /* OLD EDITOR END */
+
+.f4tyv4z {
+  background: var(--secondary-color)!important;
+}
+
+.f1xmowrb {
+  background: var(--secondary-color)!important;
+}
+
+
+/* Delivery */
+/*Color that represent background for suggestions in hightlights*/
+.f19au5bk:not([data-superscript]).alerts-markSelectedFocused {
+  background: rgb(80 58 96) !important;
+}
+.fgzhx6z:not([data-superscript]).alerts-markSelectedFocused {
+  background: rgb(59, 107, 97) !important;
+}
+.fs11c1t:not([data-superscript]).alerts-markSelectedFocused {
+  background: rgb(50 65 112) !important;
+}
+
+.fm0t4ub:not([data-superscript]).alerts-markSelectedFocused {
+  background: rgb(112 38 50) !important;
+}
+
+.f94ujpu {
+  background: var(--secondary-color)!important;
+}
+
+.f1fa8hmd {
+  background: var(--secondary-color)!important;
+}
+
+._ccba7d4e-freemium-notification-container {
+  background: var(--secondary-color)!important;
+  -webkit-box-shadow: 0 0 16px var(--very-light-blue) !important;
+}
+
+._2059d002-synonyms-wrapper {
+  -webkit-box-shadow: 0 0 16px (--light-blue) !important;
+}
+
+._2c5ad319-synonyms-emptyResultWrapper {
+  -webkit-box-shadow: 0 0 4px var(--very-light-blue) !important;
+}
+._f264c5e1-editor-dropdownListLeft {
+  -webkit-box-shadow: 0 0 4px var(--very-light-blue) !important;
+}
