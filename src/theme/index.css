@@ -280,6 +280,12 @@ body {
   color: var(--text-color) !important;
 }
 
+/* Assistant Popup */
+.assistantPopup_f1b2c3d4 {
+  background: var(--secondary-color) !important;
+  color: var(--text-color) !important;
+}
+
 /* Editor Right Top Shadow */
 .headerWrapper_f1tmpx3j {
   background: var(--none) !important;
